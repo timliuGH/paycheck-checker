@@ -48,9 +48,9 @@ int main()
             // Convert time to hours 
             if (inTime > 100) {
                 inHours = (inTime / 100) + ((inTime % 100)/60.0);
-                if (inHours > 12) {
+                /*if (inHours > 12) {
                     inHours -= 12;
-                }
+                }*/
             }
             if (outTime > 100) {
                 outHours = (outTime / 100) + ((outTime % 100)/60.0);
